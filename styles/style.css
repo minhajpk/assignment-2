@@ -20,17 +20,28 @@
     margin-right: 140px;
     margin-top: 20px;
     align-items: center;
+    max-width: 1440px;
     
 }
 .nav-items{
     list-style: none;
     margin-right: 40px;
     
+    
+}
+.navber-links{
+    margin-left: 186px;
+    margin-right: 186px;
 }
 .nav-link{
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 600px;
+}
+.nav-link:hover{
+    background-color: #d8d8d8;
+    color: purple;
+
 }
 .orange{
     color: #FEA301;
@@ -52,6 +63,7 @@
     margin-top: 17px;
     margin-bottom: 15px;
 }
+
 .btn-primary{
     padding: 12px 60px;
     font-size: 1.25rem;
@@ -60,4 +72,64 @@
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
+    
+    
 }
+
+.logo{
+    margin-left: 140px;
+}
+
+.banner-section{
+    display: flex;
+    gap: 60px ;
+    margin-left: 335px;
+    margin-right: 105px; 
+    max-width: 1440px;
+    
+}
+.banner-content{
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 125px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.enroll-btn{
+    padding: 12px 60px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    border-radius: 10px;
+    background-color: #111111;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.empower{
+    font-size: 3.5rem;
+    font-weight: 800px;
+    color: #FEA301;
+}
+.student{
+    font-size: 3.5rem;
+    font-weight: 800px;
+    color: #111111;
+}
+.vision{
+    font-size: 3.5rem;
+    font-weight: 800px;
+    color: #01ACFD;
+}
+.banner-description{
+    font-size:1.25rem;
+    margin-top: 24px
+
+}
+.banner-image{
+    width: 100%;
+    margin: 50px;
+
+}
+
+ 
