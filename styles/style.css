@@ -16,8 +16,7 @@
 .navber{
    
     justify-content: space-between;
-    margin-left: 140px;
-    margin-right: 140px;
+  margin :0 auto;
     margin-top: 20px;
     align-items: center;
     max-width: 1440px;
@@ -83,18 +82,19 @@
 .banner-section{
     display: flex;
     gap: 60px ;
-    margin-left: 335px;
-    margin-right: 105px; 
     max-width: 1440px;
+    margin:0 auto;
     
 }
 .banner-content{
     max-width: 640px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     margin-top: 125px;
     padding: 0px;
-    justify-content: center;
-    align-items: center;
     
 }
 .enroll-btn{
@@ -126,11 +126,7 @@
     margin-top: 24px
 
 }
-.banner-image{
-    width: 100%;
-    margin: 50px;
 
-}
 .Standard-Curriculam{
     
     
@@ -138,12 +134,16 @@
     
 }
 .carriculam{
+    margin-top: 100px;
     text-align: center;
     font-size: 2.8rem;
 }
 .carriculam-container{
-    margin: 60px 200px;
+    max-width: 1440px;
+    margin:0 auto;
+    margin-top: 40px;
     display: flex;
+    justify-content: center;
     gap: 24px;
    
 
@@ -222,6 +222,8 @@
 .our-story{
     margin-top: 60px;
     background-image: linear-gradient(to bottom, #FFFFFF, #FFF4DC );
+    max-width: 1920px;
+    height: 1020px;
     
 }
 .story-container{
@@ -337,11 +339,9 @@
     top: -25px;
 }
 .view{
-    position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
+    display:  flex;
     justify-content: center;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .view-button{
@@ -349,5 +349,157 @@
     width: 197px;
     
 }
+footer{
+    background-color: #01ACFD;
+    width: 100%;
+}
+.footer{
+    max-width: 1440px;
+    height: 520px;
+    background-color: #01ACFD;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.first{
+    max-width: 400px;
+    height: 100px;
+}
+.logo-section{
+    display: flex;
+}
+.first-title{
+    font-size: 2.6rem;
+    font-weight: 800px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 10px;
 
+}
+.first-description{
+    margin-top: 15px;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+
+}
+.second{
+    padding-left: 80px;
+}
+.links{
+    list-style: none;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-top: 15px;
+    display: grid;
+    gap: 20px;
+}
+.second{
+    max-width: 400px;
+    height: 100px;
+}
+.second-title{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.social-media{
+    max-width: 400px;
+    height: 100px;
+}
+.media{
+    margin-top: 30px;
+}
+.mobile-menu{
+    height: 30px;
+    width: 30px;
+    display: none;
+}
  
+@media only screen and (max-width: 425px) {
+    .brand{
+        display: none;
+    }
+    .navber-links{
+        display: none;
+    }
+    .btn-primary{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .banner-image{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 20px;
+        
+    }
+    .banner-image img{
+        width: 100%;
+        max-width: 350px;
+    }
+    .carriculam-container{
+      flex-direction: column;
+       
+    
+    }
+    .banner-content{
+        align-items: center;
+        padding: 0 20px;
+    }
+    .banner-description,.banner-title{
+        text-align: center;
+    }
+    .carriculam-container{
+        padding: 0 20px;
+        align-items: center;
+        
+    }
+    .kinder-1, .kinder-2, .kinder-3{
+        width: 350px;
+        
+
+    }
+    .group{
+        display: none;
+    }
+    .number-1{
+        display: none;
+    }
+    .card{
+        width: 170px;
+        
+    }
+    .story-container{
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    .card-image{
+        width: 100%;
+
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        height: 100%;
+        padding: 0 20px;
+
+    }
+    .second, .first{
+        height: 100%;
+        width: 100%;
+    }
+    .social-media{
+        height: 100%;
+        width: 100%;
+    }
+  }
