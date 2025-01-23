@@ -347,6 +347,9 @@
 .view-button{
     height: 50px;
     width: 197px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 12px;
     
 }
 footer{
